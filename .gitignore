@@ -3,10 +3,6 @@ data/accounts.json
 data/groups.json
 data/settings.json
 tmp/Session_*
-reserv
 sources/**.js
-sources/
-dist/
+sources
 logs/**.log
-app.client.js
-app.js
