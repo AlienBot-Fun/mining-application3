@@ -1,0 +1,52 @@
+{
+  "name": "alienworlds-mining-application3",
+  "productName": "AlienBot Pro",
+  "version": "2.1.0",
+  "private": true,
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "bytenode": "^1.3.3",
+    "cheerio": "^1.0.0-rc.10",
+    "date-format": "^3.0.0",
+    "electron": "^9.4.4",
+    "electron-twig": "^1.1.1",
+    "eosjs": "^22.1.0",
+    "exceljs": "^4.2.1",
+    "express": "^4.17.1",
+    "fast-csv": "^4.3.6",
+    "jquery": "^3.6.0",
+    "mailparser": "^3.2.0",
+    "node-fetch": "^2.6.1",
+    "node-imap": "^0.9.6",
+    "nodemon": "^2.0.12",
+    "puppeteer": "^5.5.0",
+    "puppeteer-extra": "^3.1.18",
+    "tracer": "^1.1.5",
+    "twig": "^1.15.4"
+  },
+  "description": "play.alienworlds.io alienworlds alien-worlds alien worlds alien bot AlienBot",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlienBot-Fun/mining-application.git"
+  },
+  "keywords": [
+    "play.alienworlds.io",
+    "alienworlds",
+    "alien-worlds",
+    "alien",
+    "worlds",
+    "alien",
+    "bot",
+    "AlienBot"
+  ],
+  "author": "https://github.com/AlienBot-Fun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlienBot-Fun/mining-application/issues"
+  },
+  "homepage": "https://github.com/AlienBot-Fun/mining-application#readme"
+}
