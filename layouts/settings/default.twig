@@ -24,6 +24,13 @@
             <fieldset>
                 <legend class="text-primary">{{ lang.pages.settings.mining_sett }}</legend>
                 <div class="form-group">
+                    <small class="mb-1 d-block">{{ lang.pages.settings.label_mining_visible }}</small>
+                    <select name="mining_visible" class="form-control form-control-sm" >
+                        <option value="on"  {{ settings.mining_visible == 'on' ? ' selected ' : '' }}    >{{ lang.pages.settings.select_ok }}</option>
+                        <option value="off" {{ settings.mining_visible == 'off' ? ' selected ' : '' }}   >{{ lang.pages.settings.select_no }}</option>
+                    </select>
+                </div>
+                <div class="form-group">
                     <small class="mb-1 d-block">{{ lang.pages.settings.cpu_control }}</small>
                     <select name="cpu_time_interval" class="form-control form-control-sm" >
                         {% for item in 5..20 %}
@@ -149,13 +156,6 @@
                     <select name="wallet_aw_tools" class="form-control form-control-sm" >
                         <option value="on"  {{ settings.wallet_aw_tools == 'on' ? ' selected ' : '' }}    >{{ lang.pages.settings.select_ok }}</option>
                         <option value="off" {{ settings.wallet_aw_tools == 'off' ? ' selected ' : '' }}   >{{ lang.pages.settings.select_no }}</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <small class="mb-1 d-block">{{ lang.pages.settings.label_mining_visible }}</small>
-                    <select name="mining_visible" class="form-control form-control-sm" >
-                        <option value="on"  {{ settings.mining_visible == 'on' ? ' selected ' : '' }}    >{{ lang.pages.settings.select_ok }}</option>
-                        <option value="off" {{ settings.mining_visible == 'off' ? ' selected ' : '' }}   >{{ lang.pages.settings.select_no }}</option>
                     </select>
                 </div>
             </fieldset>
