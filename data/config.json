@@ -1,7 +1,7 @@
 {
     "dev_mode": "off",
     "port": 3000,
-    "min_width": 860,
+    "min_width": 890,
     "min_height": 740,
     "log_write": "on",
     "dev_tools": "off",
