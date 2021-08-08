@@ -1,5 +1,5 @@
 {
-    "dev_mode": "on",
+    "dev_mode": "off",
     "min_width": 830,
     "min_height": 740,
     "log_write": "on",
